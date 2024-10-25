@@ -1,27 +1,30 @@
 .menu-container {
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    width: auto; 
-    z-index: 100; 
-  }
-  
-  .menu-list {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-  }
-    
-  .menu-item a {
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Kaisei Decol", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 15x;
-    text-decoration: none;
-    color: inherit;
-    margin-left: 20px;
-  }
-  
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  width: auto;
+  z-index: 100;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 15x;
+  text-decoration: none;
+  color: inherit;
+
+}
