@@ -63,12 +63,10 @@ p {
 }
 
 .journal-entry-box {
+    background-color: rgba(255, 255, 255, 0.3) !important;
     width: 100%;
-    height: 300px; 
+    height: 500px; 
     padding: 10px;
-    line-height: 1.6; 
-    background-image: linear-gradient(to bottom, transparent 90%, #ccc 90%);
-    background-size: 100% 30px; /* Adjust this value to space the lines */
     border: 1px solid #ccc;
     box-sizing: border-box;
     font-family: 'Courier', monospace; 
