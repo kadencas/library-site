@@ -1,0 +1,95 @@
+.planner-container {
+    display: flex;
+    height: 100vh;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.left-sidebar {
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.left-sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.left-sidebar li {
+    display: flex;
+    margin-bottom: 30%;
+    cursor: pointer;
+}
+
+.left-sidebar li:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    background-size: cover;
+    background-position: top left;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.date-box {
+    width: 50%; 
+    height: 200px;
+    background-color: transparent; 
+    border-radius: 10px;
+    margin: 1%;
+  }
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+p {
+    font-size: 18px;
+}
+
+.journal-entry-box {
+    width: 100%;
+    height: 300px; 
+    padding: 10px;
+    line-height: 1.6; 
+    background-image: linear-gradient(to bottom, transparent 90%, #ccc 90%);
+    background-size: 100% 30px; /* Adjust this value to space the lines */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Courier', monospace; 
+    resize: none; 
+    border-radius: 10px;
+}
+
+
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .arrow-line {
+    width: 1px; 
+    height: 400px; 
+    background-color: white; 
+  }
+  
+
+  

@@ -1,0 +1,59 @@
+.card {
+    background-color: (255,255,255) !important;
+    border: 1px solid #ddd;    /* Subtle border */
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 10px 0;
+    padding: 15px;
+    transition: transform 0.2s ease; /* Animation for hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  /* Style for the card body */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Task title input styling */
+  .card-body input[type="text"], .card-body select, .card-body input[type="date"] {
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Label styling */
+  .card-body label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+  
+  /* Add spacing between elements */
+  .mb-2 {
+    margin-bottom: 1rem;
+  }
+
+  .row-fields {
+    display: flex;
+    gap: 10px; /* Adds space between the two fields */
+    justify-content: space-between;
+  }
+  
+  .row-fields .field {
+    flex: 1; /* Each field will take up equal space */
+  }
+  
+  /* Make sure the form elements inside each field fit properly */
+  .field select,
+  .field input {
+    width: 100%;
+  }
+  
